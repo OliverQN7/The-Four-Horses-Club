@@ -179,19 +179,6 @@ html {
   left: -734px;
   z-index: 3;
 }
-
-/* .home__images-main {
-  position: relative;
-}
-.home__images-main img {
-  position: absolute;
-  top: 170px;
-  right: -900px;
-  z-index: 3;
-  overflow-x: hidden;
-
-  mix-blend-mode: color-burn;
-} */
 .main-circle {
   width: 660px;
   height: 660px;
@@ -218,8 +205,6 @@ html {
   top: 172px;
   right: -172px;
   z-index: 4;
-
-  /* overflow-x: hidden; */
 }
 
 .home__images-city img {
@@ -280,13 +265,12 @@ html {
 
 .inn_ticker {
   overflow: hidden;
-  -ms-overflow-x: hidden; /*на всякий случай но и так работает*/
+  -ms-overflow-x: hidden;
 }
 
 .home__ticker ul {
   display: flex;
   animation: move 10s linear infinite;
-  /* overflow: hidden; */
 }
 
 .home__ticker ul li {
@@ -294,7 +278,6 @@ html {
   flex-shrink: 0;
   white-space: nowrap;
   margin-right: 35px;
-  /* overflow: hidden; */
 }
 
 .second {
@@ -647,7 +630,6 @@ table th {
 
 .members__slider {
   overflow: hidden;
-  /*background: aqua;*/
   margin: 60px auto 0;
 }
 

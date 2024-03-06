@@ -14,7 +14,6 @@ prevBtn.addEventListener("click", prevSlide);
 
 function showSlide() {
   sliderWidth = document.querySelector(".stages__container").offsetWidth;
-  // sliderItem.forEach((item) => (item.originalWidth = item.offsetWidth));
   sliderLine.style.width = document.documentElement.clientWidth;
 
   rollSlider();

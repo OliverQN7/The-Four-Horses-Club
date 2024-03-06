@@ -234,7 +234,7 @@
 
   sliderLine.addEventListener("transitionend", handleTransitionEnd);
 
-  // setInterval(moveNext, 4000);
+  setInterval(moveNext, 4000);
 
   function handleTransitionEnd(transitionEvent) {
     if (transitionEvent.propertyName === "transform" && flag) {
